@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="per1.css" />
+    <!-- Lien vers la police Roboto -->
+  </head>
+  <body>
+    <!-- Barre de navigation -->
+    <nav class="navbar">
+      <a href="#home" class="nav-links">home</a>
+      <a href="#about" class="nav-links">about</a>
+      <a href="#work" class="nav-links">work</a>
+      <a href="#resume" class="nav-links">resume</a>
+      <a href="#contact" class="nav-links">Contact</a>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="home" class="home">
+      <h1>home</h1>
+      <p>Je suis rima rzouga je suis etudient de GOMYCODE en 2024-2025.</p>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="about">
+      <h2>about</h2>
+      <p>
+        Je suis un développeur passionné avec une expertise dans la création de
+        sites web interactifs et modernes.
+      </p>
+      <img src="./images.jfif" alt="img" />
+      <br />
+      <video controls>
+        <source src="./test2.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas la lecture vidéo.
+      </video>
+    </section>
+
+    <!-- Section Travaux -->
+    <section id="work" class="work">
+      <h2>resume</h2>
+      <ul>
+        <li>Site web de e-commerce</li>
+        <li>Application mobile de suivi de fitness</li>
+        <li>Blog personnel</li>
+      </ul>
+    </section>
+
+    <!-- Section CV -->
+    <section id="resume" class="resume">
+      <h2>work</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Année</th>
+            <th>Expérience</th>
+            <th>Centre</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2024 - 2025</td>
+            <td>Développeur Web</td>
+            <td>GOMYCODE</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+        <label for="message">Message :</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          cols="30"
+          required
+        ></textarea
+        ><br /><br />
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>2024 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
